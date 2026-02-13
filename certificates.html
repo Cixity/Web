@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ro">
 <head>
   <meta charset="UTF-8" />
@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/certificates.css" />
 </head>
 <body>
   <a class="skip-link" href="#certificates">Sari la conținut</a>
@@ -136,6 +136,57 @@
         </div>
       </div>
     </section>
+  
+    <section id="lab-form-section" class="section lab-section">
+      <div class="container two-col">
+        <div class="reveal">
+          <div class="section-title" style="text-align:left; margin-bottom:16px;">
+            <h2>Formular client</h2>
+            <p>Exemplu de formular cu toate câmpurile obligatorii.</p>
+          </div>
+          <form class="lab-form" action="#" method="post">
+            <label for="lab-name">Nume</label>
+            <input type="text" id="lab-name" name="name" placeholder="Numele tău" required />
+
+            <label for="lab-email">Email</label>
+            <input type="email" id="lab-email" name="email" placeholder="email@exemplu.com" required />
+
+            <label for="lab-password">Parolă</label>
+            <input type="password" id="lab-password" name="password" placeholder="Introdu parola" required />
+
+            <label for="lab-service">Serviciu dorit</label>
+            <select id="lab-service" name="service" required>
+              <option value="">Selectează un serviciu</option>
+              <option value="contabilitate">Contabilitate</option>
+              <option value="raportare">Raportare financiară</option>
+              <option value="consultanta">Consultanță fiscală</option>
+            </select>
+
+            <button class="btn" type="submit">Trimite formularul</button>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <div class="section-title" style="text-align:left; margin-bottom:16px;">
+            <h2>Referințe externe</h2>
+            <p>Resurse utile pentru învățare web.</p>
+          </div>
+          <div class="external-list">
+            <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">Tutorial HTML - W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">HTML Reference - MDN Web Docs</a>
+            <a href="https://validator.w3.org/" target="_blank" rel="noopener">Verificare cod HTML - W3C Validator</a>
+          </div>
+
+          <div class="section-title" style="text-align:left; margin-top:28px; margin-bottom:16px;">
+            <h2>Referințe interne</h2>
+          </div>
+          <div class="lab-links">
+            <a href="index.html">Accesează pagina 1 - Acasă</a>
+            <a href="projects.html">Accesează pagina 2 - Proiecte</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -152,3 +203,6 @@
   </footer>
 </body>
 </html>
+
+
+
